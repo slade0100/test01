@@ -1,0 +1,35 @@
+<config>
+    <modules>
+        <local_exercise>
+            <version> </version>
+        </local_exercise>
+    </modules>
+    <global>
+        <blocks>
+            <exercise>
+                <class>Jing_Exercise_Block</class>
+            </exercise>
+        </blocks>
+        <models>
+            <exercise>
+                <class> Jing_Exercise_Model</class>
+                <resourceModel>execrice_resource</resourceModel>
+            </exercise>
+
+            <exercise_resource>
+                <class> Jing_Exercise_Model_Resourc</class>
+                <deprecatedNode>exercise_mysql</deprecatedNode>
+                <entities>
+                    <tem>
+                        <table>exercise_tem</table>
+                    </tem>
+                    <problem>
+                        <table>newsletter_problem</table>
+                    </problem>
+                </entities>
+
+            </exercise_resource>
+        </models>
+
+    </global>
+</config>
